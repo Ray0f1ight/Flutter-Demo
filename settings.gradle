@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Flutter project"
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir,'flutter_module/.android/include_flutter.groovy'))
