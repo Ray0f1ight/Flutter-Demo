@@ -1,0 +1,2 @@
+# Flutter-Demo
+自己写的小demo，利用shared_preference本地缓存数据，Dio库拉取网络数据，通过BasicMessagerChannel实现flutter和原生界面的通信
